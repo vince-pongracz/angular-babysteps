@@ -27,12 +27,12 @@ jobs:
         with:
           node-version: 16
       - name: List files
-        run: ls -l        
+        run: ls -l
      # - name: Select project dir
      #   run: cd ./ZarovizsgaPortal.Web/ClientApp
       - name: install dependencies
         run: npm ci
       - name: Build
-        run: npm run build
+        run: npm run build:ci
       - name: Test
-        run: npm run test
+        run: npm run test:ci
