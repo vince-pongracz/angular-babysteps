@@ -1,6 +1,6 @@
 {
-  "name": "angular.io-example",
-  "version": "0.0.0",
+  "name": "angular.babysteps",
+  "version": "1.0.0",
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
   "scripts": {
@@ -27,7 +27,7 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.1.0",
+    "@angular-devkit/build-angular": "^13.3.3",
     "@angular/cli": "~13.1.0",
     "@angular/compiler-cli": "~13.1.0",
     "@types/jasmine": "~3.10.0",
